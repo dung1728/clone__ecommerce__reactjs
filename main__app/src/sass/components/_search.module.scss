@@ -1,0 +1,37 @@
+.container{height:200px;line-height:200px;text-align:center} 
+.search_form {
+	right: 200px;
+	top: 200px;
+}
+
+ .search_field {
+	background-color: transparent;
+	background-image: url(https://wp-themes.com/wp-content/themes/twentythirteen/images/search-icon.png);
+	background-position: 5px  center;
+	background-repeat: no-repeat;
+	background-size: 24px 24px;
+	border: none;
+	cursor: pointer;
+	height: 40px;
+	margin: 3px 0;
+	padding: 0 0 0 34px;
+	position: relative;
+	-webkit-transition: width 400ms ease, background 400ms ease;
+	transition:         width 400ms ease, background 400ms ease;
+	width:0px;
+   cursor: pointer;
+}
+
+.search_field:focus {
+	// background-color: #000;
+	border: 2px solid #c3c0ab;
+	cursor: text;
+	outline: none;
+	width: 250px;
+  color:#fff;
+  border-radius: 10px;
+}
+.search_form
+.search_submit { 
+display:none;
+}
